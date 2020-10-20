@@ -1,5 +1,5 @@
 pipeline {
-    agent master
+    agent 'master'
     environment {
         GO111MODULE = 'on'
     }
